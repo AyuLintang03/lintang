@@ -3,13 +3,6 @@ import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import { Link } from 'react-router-dom';
 import '../assets/Skill.css';
 
-const WhatsAppIcon = '/images/whatsapp.png';
-const LinkedInIcon = '/images/linkedin.png';
-const GitHubIcon = '/images/github.png';
-const InstagramIcon = '/images/instagram.png';
-const GmailIcon = '/images/gmail.png';
-const YourPhotoUrl = '/images/ayu02.png';
-
 const Kontak = () => {
   const Links = [
     { name: 'Home', link: '/' },
@@ -17,6 +10,12 @@ const Kontak = () => {
     { name: 'Certificate', link: '/certificate' },
     { name: 'Project', link: '/project' },
   ];
+const WhatsAppIcon = '/images/whatsapp.png';
+const LinkedInIcon = '/images/linkedin.png';
+const GitHubIcon = '/images/github.png';
+const InstagramIcon = '/images/instagram.png';
+const GmailIcon = '/images/gmail.png';
+const YourPhotoUrl = '/images/ayu02.png';
 
   const [open, setOpen] = useState(false);
 
@@ -66,7 +65,29 @@ const Kontak = () => {
       <div className='w-[600px] h-[430px] rounded shadow-xl bg-white mb-20'>
         {/* Contact Information */}
         <div className='grid grid-cols-2 gap-4 p-6 items-center'>
-          
+          {/* Centered and slightly larger photo */}
+          <img src={YourPhotoUrl} alt='Your Photo' className='w-48 h-38 rounded-full col-span-2 mb-4 mx-auto' />
+          <p className='text-lg text-center font-semibold mb-4 col-span-2'>Contact Information</p>
+          {/* WhatsApp link */}
+          <a href='https://wa.me/62895704292653' target='_blank' rel='noopener noreferrer' className='flex items-center text-green-500 hover:underline mb-2 ml-20'>
+            <img src={WhatsAppIcon} alt='WhatsApp Icon' className='w-6 h-6 mr-2' />
+            WhatsApp
+          </a>
+          {/* LinkedIn link */}
+          <a href='https://www.linkedin.com/in/ayu-lintang' target='_blank' rel='noopener noreferrer' className='flex items-center text-blue-500 hover:underline mb-2 ml-20'>
+            <img src={LinkedInIcon} alt='LinkedIn Icon' className='w-6 h-6 mr-2' />
+            LinkedIn
+          </a>
+          {/* GitHub link */}
+          <a href='https://github.com/AyuLintang03' target='_blank' rel='noopener noreferrer' className='flex items-center text-black hover:underline mb-2 ml-20'>
+            <img src={GitHubIcon} alt='GitHub Icon' className='w-6 h-6 mr-2' />
+            GitHub
+          </a>
+          {/* Instagram link */}
+          <a href='https://www.instagram.com/alinp04/?next=%2F' target='_blank' rel='noopener noreferrer' className='flex items-center text-pink-500 hover:underline mb-2 ml-20'>
+            <img src={InstagramIcon} alt='Instagram Icon' className='w-6 h-6 mr-2' />
+            Instagram
+          </a>
           {/* Gmail link */}
           <a href='mailto:ayulintang95@gmail.com' className='flex items-center text-red-500 hover:underline ml-20'>
             <img src={GmailIcon} alt='Gmail Icon' className='w-6 h-6 mr-2' />

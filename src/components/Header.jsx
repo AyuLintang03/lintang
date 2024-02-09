@@ -76,7 +76,7 @@ const Header = () => {
             <div className="mb-6 md:mb-4">
               <PortfolioText />
             </div>
-            <div className='flex flex-wrap flex-row'>
+            <div className='flex flex-wrap flex-row md:mb-0 mb-4'>
                   <animated.div style={fadeIn}>
                     <a
                       href='/public/images/CV - Ayu Lintang Pangestu 3.pdf'  
