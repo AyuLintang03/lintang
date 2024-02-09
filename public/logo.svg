@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190.61 227.6">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-family: MinionVariableConcept-Roman, 'Minion Variable Concept';
+        font-size: 191.58px;
+        font-variation-settings: 'wght' 400, 'opsz' 11;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(92.57 158.05) scale(.9 1)"><tspan x="0" y="0">L</tspan></text>
+  <g>
+    <path class="cls-1" d="m69.83,56.4h-10.53l-8.04,18.49h10.93c2.52-6.08,5.08-12.28,7.63-18.49Z"/>
+    <path class="cls-1" d="m61.21,52.01h10.43c1.72-4.19,3.44-8.37,5.13-12.49l4.9,12.49h21.78c-2.44-6.05-4.92-12.17-7.48-18.49h-26.72l-8.04,18.49Z"/>
+    <path class="cls-1" d="m105.22,56.4h-21.84l7.25,18.49h22.05c-2.51-6.22-4.97-12.34-7.46-18.49Z"/>
+    <path class="cls-1" d="m92.35,79.28l6.73,17.17h-45.86c2.3-5.5,4.7-11.27,7.16-17.17h-11.02l-21.39,49.2c-8.58,20.01-12.51,21.57-27.96,23.35v6.23h56.65v-6.23c-20.11-2.22-23.54-4-18.15-18.46,3.43-9.12,7.11-17.79,11.04-27.8h52.98c5.15,14.01,10.06,25.13,13.24,33.8l12.72-25.18c-5.05-12.58-9.63-23.96-14.04-34.92h-22.09Z"/>
+    <path class="cls-1" d="m94.18,29.14c-2.44-6.01-4.96-12.22-7.61-18.75l-7.85,1.33-7.57,17.41h23.03Z"/>
+  </g>
+</svg>
