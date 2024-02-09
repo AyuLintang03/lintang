@@ -1,0 +1,35 @@
+/* Add this to your existing CSS file or create a new one */
+.triangle-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 0px;
+    border-left: 100vw solid transparent;
+    border-right: 0vw solid transparent;
+    border-bottom: 559px solid #5b5b5b;
+    z-index: -1;
+    /* Lower z-index for the triangle */
+}
+.bg-setengah{
+    position: fixed;
+        bottom: 0;
+        left: 90%;
+        width: 100vw;
+        height: 100vh;
+        transform: translateX(-140%);
+        background-color: #5b5b5b;
+        clip-path: ellipse(50% 50% at 50% 50%);
+        z-index: -1;
+}
+.border-indicator {
+    border-color: #1a202c;
+    /* Set the desired color for the indicator */
+}
+.setengah{
+ position: fixed;
+    width: 100vw;
+    height: 10px;
+    border-bottom: 300px solid #5b5b5b;
+z-index: -2;
+}
