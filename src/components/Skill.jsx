@@ -37,17 +37,17 @@ const Skill = () => {
   }, [open]);
 
   const skills = [
-    { title: 'React Js', image: '/public/images/react js.svg' },
-    { title: 'Tailwind', image: '/public/images/tailwind-css.png' },
-    { title: 'CSS', image: '/public/images/CSS.png' },
-    { title: 'HTML', image: '/public/images/html.png' },
-    { title: 'Javascript', image: '/public/images/javascript.png' },
-    { title: 'PHP', image: '/public/images/php.png' },
-    { title: 'Laravel', image: '/public/images/laravel.png' },
-    { title: 'Figma', image: '/public/images/figma.png' },
-    { title: 'UI/UX', image: '/public/images/UIUX.png' },
-    { title: 'Photoshop', image: '/public/images/photoshop.png' },
-    { title: 'Illustator', image: '/public/images/illustrator.png' },
+    { title: 'React Js', image: '/images/react js.svg' },
+    { title: 'Tailwind', image: '/images/tailwind-css.png' },
+    { title: 'CSS', image: '/images/CSS.png' },
+    { title: 'HTML', image: '/images/html.png' },
+    { title: 'Javascript', image: '/images/javascript.png' },
+    { title: 'PHP', image: '/images/php.png' },
+    { title: 'Laravel', image: '/images/laravel.png' },
+    { title: 'Figma', image: '/images/figma.png' },
+    /*{ title: 'UI/UX', image: '/images/UIUX.png' },
+    { title: 'Photoshop', image: '/images/photoshop.png' },
+    { title: 'Illustator', image: '/images/illustrator.png' },*/
   ];
 
   // Create individual animations for each skill

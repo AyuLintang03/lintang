@@ -3,13 +3,12 @@ import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import { Link } from 'react-router-dom';
 import '../assets/Skill.css';
 
-// Define constants for your icon paths or URLs
-const WhatsAppIcon = '/public/images/whatsapp.png';
-const LinkedInIcon = '/public/images/linkedin.png';
-const GitHubIcon = '/public/images/github.png';
-const InstagramIcon = '/public/images/instagram.png';
-const GmailIcon = '/public/images/gmail.png';
-const YourPhotoUrl = '/public/images/ayu02.png';
+const WhatsAppIcon = '/images/whatsapp.png';
+const LinkedInIcon = '/images/linkedin.png';
+const GitHubIcon = '/images/github.png';
+const InstagramIcon = '/images/instagram.png';
+const GmailIcon = '/images/gmail.png';
+const YourPhotoUrl = '/images/ayu02.png';
 
 const Kontak = () => {
   const Links = [

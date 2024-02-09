@@ -21,36 +21,36 @@ const Project = () => {
     {
       name: 'Platform E-commerce Sayuran Online',
       text: 'The online vegetable sales website utilizes the PHP programming language with the Laravel framework, and Bootstrap for its user interface.',
-      image: '/public/images/toko-sayuran-online.png',
+      image: '/images/toko-sayuran-online.png',
       link: 'https://github.com/AyuLintang03/Toko-Online-Sayuran---Toko-Riski.git'
     },
     {
       name: 'Library Desktop Application',
       text: 'The library application is employed for book borrowing and return processes, utilizing the C# programming language.',
-      image: '/public/images/Screenshot (1565).png',
+      image: '/images/Screenshot (1565).png',
       link: 'https://github.com/AyuLintang03/Perpustakaan_Deskop.git'
     },
     {name: 'Game Petualangan Momo',
       text: 'Momo is chemistry quiz game: collect oranges, tackle obstacles, answer questions using chemical tubes. Developed with HTML and Construct 2, it includes special orange fruits for added gameplay.',
-      image: '/public/images/pm.jfif',
+      image: '/images/pm.jfif',
       link: 'https://github.com/AyuLintang03/Game-Petualangan-Momo.git'
     },
     
     {name: 'Website Rumah Kucing',
       text: 'The website focuses on social media, where users can post cats for adoption. The interface of this website is developed using React JS. ',
-      image: '/public/images/Artboard 1@3x-100.jpg',
+      image: '/images/Artboard 1@3x-100.jpg',
       link: 'https://www.figma.com/proto/B7U3681L9jwX68gwrpNzIJ/High-Fidelity?type=design&node-id=401-965&t=LTP5YvYJXjRNbjzb-0&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=401%3A965'
     },
     
     {name: 'Prototype Komoditiku',
       text: 'The educational website serves as a platform connecting sellers and buyers, with a primary emphasis on commitment to product quality and fair value earnings. ',
-      image: '/public/images/Artboard 1@2x.png',
+      image: '/images/Artboard 1@2x.png',
       link: 'https://www.figma.com/proto/gotmpgbIcZ5yi0UUtvSFE8/HI-FI?type=design&node-id=204-169&t=LTP5YvYJXjRNbjzb-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=204%3A169'
     },
 
     {name: 'Prototype Kalpataru',
       text: 'Kalpataru, an environmental platform, encourages users to send waste to partner organizations, earning points for redeemable benefits while actively reducing environmental impact through participation.',
-      image: '/public/images/Artboard 1.png',
+      image: '/images/Artboard 1.png',
       link: 'https://www.figma.com/proto/VZ2moonAUd45WulBcMgoCM/Massive?type=design&node-id=1-5758&t=LTP5YvYJXjRNbjzb-0&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=1%3A7282'
     },
   ];
