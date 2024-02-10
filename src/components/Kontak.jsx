@@ -63,8 +63,8 @@ const Kontak = () => {
         </ul>
       </div>
       <div className='setengah'/>
-    <div className="w-full h-screen flex items-center justify-center">
-      <animated.div style={fadeOuUp} className='w-[600px] h-[430px] rounded shadow-xl bg-white mb-20'>
+    <div className="w-full h-screen flex items-center justify-center"  style={{ position: 'relative', zIndex: open ? '-1' : 'auto' }}>
+      <animated.div style={fadeOuUp} className='w-[600px] h-[430px]  rounded shadow-xl bg-white mb-20' >
         {/* Contact Information */}
         <div className='grid grid-cols-2 gap-4 p-6 items-center'>
           {/* Centered and slightly larger photo */}
@@ -97,9 +97,6 @@ const Kontak = () => {
           </a>
         </div>
       </animated.div>
-      <div onClick={() => setOpen(!open)} className='absolute right-8 top-2 md:hidden w-7 h-7 cursor-pointer'>
-        {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
-      </div>
     </div>
     </div>
   );
