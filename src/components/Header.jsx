@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import PortfolioText from './PortfolioText';
 import { useSpring, animated } from 'react-spring';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // Impor Link dari react-router-dom
 
 const Header = () => {
   const Links = [
@@ -59,7 +59,7 @@ const Header = () => {
           {Links.map((link) => (
             <li className='md:ml-8 md:my-0 my-7 font-semibold relative' key={link.name}>
               <Link
-                to={link.link}
+                to={link.link} // Menggunakan Link dan properti to
                 className={`text-black duration-500 transition-all border-b border-transparent hover:border-gray-700 border-b-2 px-2 py-1 ${
                   link.name === 'Home' ? 'marker bg-slate-700 h-1 w-4 rounded-full text-white' : ''
                 }`}
@@ -78,21 +78,21 @@ const Header = () => {
             </div>
             <div className='flex flex-wrap flex-row md:mb-0 mb-4'>
                   <animated.div style={fadeIn}>
-                    <a
-                      href='/public/images/CV - Ayu Lintang Pangestu 3.pdf'  
+                    <Link
+                      to='/public/images/CV - Ayu Lintang Pangestu 3.pdf' // Menggunakan Link dan properti to
                       download='Resume - Ayu Lintang Pangestu.pdf'  
                       className='btn bg-black hover:bg-slate-600 hover:text-black text-white font-semibold px-4 py-2 rounded duration-500 mt-2 md:mt-0 md:mr-auto md:ml-7 md:w-auto w-full'
                     >
                       Resume
-                    </a>
+                    </Link>
                   </animated.div>
                   <animated.div style={fadeIn}>
-                    <a
-                      href='/kontak'  
+                    <Link
+                      to='/kontak' // Menggunakan Link dan properti to
                       className='btn bg-gray-300 hover:bg-slate-600 hover:text-white text-black font-semibold px-4 py-2 rounded duration-500 mt-2 md:mt-0 md:mr-auto md:ml-7 md:w-auto w-full'
                     >
                       Contact
-                    </a>
+                    </Link>
                   </animated.div>
             </div>
           </div>
