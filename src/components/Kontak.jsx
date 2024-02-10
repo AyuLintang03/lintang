@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import { Link } from 'react-router-dom';
 import '../assets/Skill.css';
+import { useSpring, animated } from 'react-spring';
 
 const Kontak = () => {
   const Links = [
@@ -35,6 +36,13 @@ const Kontak = () => {
     }
   }, [open]);
 
+  const fadeOuUp = useSpring({
+    opacity: 1,
+    transform: 'translateY(0)',
+    from: { opacity: 0, transform: 'translateY(-50px)' },
+    config: { duration: 1000 },
+  });
+
   return (
     <div className="w-full fixed top-0 left-0 md:overflow-hidden overflow-y-auto max-h-screen" style={{ position: 'relative' }}>
       <div className='md:flex items-center justify-center bg-white py-6 md:px-10 px-7 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200'>
@@ -56,7 +64,7 @@ const Kontak = () => {
       </div>
       <div className='setengah'/>
     <div className="w-full h-screen flex items-center justify-center">
-      <div className='w-[600px] h-[430px] rounded shadow-xl bg-white mb-20'>
+      <animated.div style={fadeOuUp} className='w-[600px] h-[430px] rounded shadow-xl bg-white mb-20'>
         {/* Contact Information */}
         <div className='grid grid-cols-2 gap-4 p-6 items-center'>
           {/* Centered and slightly larger photo */}
@@ -88,7 +96,7 @@ const Kontak = () => {
             Gmail
           </a>
         </div>
-      </div>
+      </animated.div>
       <div onClick={() => setOpen(!open)} className='absolute right-8 top-2 md:hidden w-7 h-7 cursor-pointer'>
         {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
       </div>
