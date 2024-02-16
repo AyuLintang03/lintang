@@ -20,8 +20,8 @@ const PortfolioText = () => {
     >
       <h2 className="text-4xl md:text-6xl font-bold mb-6">Welcome... </h2>
       <p className="text-base md:text-lg text-gray-600 text-justify">
-        Hi, I'm Ayu Lintang Pangestu, a graduate in Informatics from Technocrat University Indonesia with an IPK of 3.62. My expertise includes PHP, HTML5, CSS, Javascript, React Js, Tailwind CSS, UX/UI Design, Laravel, Adobe Illustrator, and Adobe Photoshop. Applied in several projects I have worked on. I have a high enthusiasm for continuous learning and expanding my skills. I am deeply committed to making a direct contribution to the job, using my skills to overcome challenges, and proactively collaborating in the work environment.
-        This portfolio showcases my skills, projects, and certifications, Thank you. 😸
+        Hi, I'm Ayu Lintang Pangestu, a graduate in Informatics from Technocrat University Indonesia with an IPK of 3.62. My expertise includes PHP, HTML5, CSS, Javascript, Bootstrap, React Js, Tailwind CSS, UX/UI Design, Figma, Adobe XD, Laravel, Adobe Illustrator, and Adobe Photoshop. Applied in several projects that I have worked on. I have high enthusiasm to keep learning and developing my skills. I am highly committed to making an immediate contribution to the work, using my skills to overcome challenges, and collaborating proactively in the work environment, thank you.                          
+
       </p>
     </animated.div>
   );

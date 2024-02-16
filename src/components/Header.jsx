@@ -70,7 +70,7 @@ const Header = () => {
           ))}
         </ul>
       </div>
-      <div className='overflow-y-auto max-h-screen'>
+      <div className=' md:overflow-hidden overflow-y-auto max-h-screen'>
         <div className="flex flex-col md:flex-row mb-8">
           <div className={`flex flex-col flex-grow `}>
             <div className="mb-6 md:mb-4">
@@ -78,13 +78,13 @@ const Header = () => {
             </div>
             <div className='flex flex-wrap flex-row md:mb-0 mb-4'>
                   <animated.div style={fadeIn}>
-                    <Link
-                      to='/public/images/CV - Ayu Lintang Pangestu 3.pdf' // Menggunakan Link dan properti to
-                      download='Resume - Ayu Lintang Pangestu.pdf'  
-                      className='btn bg-black hover:bg-slate-600 hover:text-black text-white font-semibold px-4 py-2 rounded duration-500 mt-2 md:mt-0 md:mr-auto md:ml-7 md:w-auto w-full'
-                    >
-                      Resume
-                    </Link>
+                    <a
+                  href='/public/images/CV - Ayu Lintang Pangestu 3.pdf' // Update the correct file path
+                  download='Resume - Ayu Lintang Pangestu.pdf'
+                  className='btn bg-black hover:bg-slate-600 hover:text-black text-white font-semibold px-4 py-2 rounded duration-500 mt-2 md:mt-0 md:mr-auto md:ml-7 md:w-auto w-full'
+                >
+                  Resume
+                </a>
                   </animated.div>
                   <animated.div style={fadeIn}>
                     <Link
